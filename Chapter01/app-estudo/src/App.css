@@ -1,0 +1,32 @@
+.App{
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img{
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 300px;
+  border: 3px solid #1a1515;
+}
+
+img:hover{
+  transform: scale(10px);
+}
+
+h2{
+  color: #212112;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: unset;
+}
+
+h3{
+  color: #ccc;
+  font-size: 18px !important;
+  font-weight: 700;
+  font-style: unset;
+}
